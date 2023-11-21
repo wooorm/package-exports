@@ -1718,7 +1718,10 @@ async function check(packageValue, files, foundExports, foundMessages) {
  * @returns {Promise<undefined>}
  */
 async function clean() {
-  await fs.rm(base, {recursive: true})
+  try {
+    await fs.rm(base, {recursive: true})
+  } catch {}
+
   await fs.mkdir(base)
 }
 
