@@ -3,7 +3,6 @@
 [![Build][badge-build-image]][badge-build-url]
 [![Coverage][badge-coverage-image]][badge-coverage-url]
 [![Downloads][badge-downloads-image]][badge-downloads-url]
-[![Size][badge-size-image]][badge-size-url]
 
 Get the exports of a package.
 
@@ -1418,10 +1417,6 @@ See [How to Contribute to Open Source][open-source-guide-contribute].
 [badge-downloads-image]: https://img.shields.io/npm/dm/package-exports.svg
 
 [badge-downloads-url]: https://www.npmjs.com/package/package-exports
-
-[badge-size-image]: https://img.shields.io/bundlejs/size/package-exports
-
-[badge-size-url]: https://bundlejs.com/?q=package-exports
 
 [file-license]: license
 
