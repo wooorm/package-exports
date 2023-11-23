@@ -57,7 +57,7 @@ Get the exports of a package.
 
 ## What is this?
 
-This package find out what is exposed from a package.
+This package finds out what is exposed from a package.
 It also emits many possible warnings about potential problems.
 
 ## When should I use this?
