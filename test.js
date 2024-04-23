@@ -1679,10 +1679,10 @@ test('node docs', async function (t) {
  */
 async function check(packageValue, files, foundExports, foundMessages) {
   const folderUrl = new URL(temporary() + '/', base)
-  const pkgUrl = new URL('package.json', folderUrl)
+  const packageUrl = new URL('package.json', folderUrl)
 
   await fs.mkdir(folderUrl)
-  await fs.writeFile(pkgUrl, JSON.stringify(packageValue, undefined, 2))
+  await fs.writeFile(packageUrl, JSON.stringify(packageValue, undefined, 2))
 
   await Promise.all(
     files.map(async function ([file, value]) {
